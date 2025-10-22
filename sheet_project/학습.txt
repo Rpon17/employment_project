@@ -1,0 +1,4 @@
+1. cmd.exe와 powershell의 차이점
+활성화 스크립트가 bat인지 ps1인지가 다름
+powershell 방식이 더 신식
+

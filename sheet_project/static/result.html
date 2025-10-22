@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>변환 결과</title>
+</head>
+<body>
+    <h1>변환 완료 🎵</h1>
+    <p>추출된 MIDI 파일을 다운로드하세요:</p>
+    <a id="downloadLink" href="#">MIDI 다운로드</a>
+
+    <script>
+        // URL에서 파일명 추출
+        const params = new URLSearchParams(window.location.search);
+        const file = params.get("file");
+        if (file) {
+            document.getElementById("downloadLink").href = "/output/" + file;
+        }
+    </script>
+</body>
+</html>

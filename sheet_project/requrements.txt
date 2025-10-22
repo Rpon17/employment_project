@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+yt-dlp
+spleeter
+basic-pitch
+music21
